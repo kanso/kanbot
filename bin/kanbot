@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var forever = require('forever');
+
+var child = new (forever.Monitor)(__dirname + '/../scripts/start.js', {
+    max: 3,
+    //silent: true,
+    silent: false,
+    options: []
+});
+
+//child.on('exit', this.callback);
+child.start();

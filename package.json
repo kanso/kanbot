@@ -1,0 +1,19 @@
+{
+    "name": "kanbot",
+    "description": "The Kanso IRC bot",
+    "maintainers": [
+        {"name": "Caolan McMahon", "web": "https://github.com/caolan"}
+    ],
+    "dependencies": {
+        "irc": "0.3.x",
+        "forever": "0.7.x"
+    },
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kanso/kanbot.git"
+    },
+    "bugs": {"url": "http://github.com/kanso/kanbot/issues"},
+    "directories": { "lib": "./lib" },
+    "bin": {"kanbot": "./bin/kanbot"}
+}
