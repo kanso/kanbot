@@ -9,7 +9,8 @@
         "irc": "0.3.x",
         "forever": "0.7.x",
         "follow": "0.4.x",
-        "bitly": "1.2.x"
+        "bitly": "1.2.x",
+        "markov": "0.0.6"
     },
     "repository": {
         "type": "git",
