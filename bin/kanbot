@@ -2,12 +2,12 @@
 
 var forever = require('forever');
 
-var child = new (forever.Monitor)(__dirname + '/../scripts/start.js', {
+forever.start(__dirname + '/../scripts/start.js', {
     max: 3,
     //silent: true,
     silent: false,
     options: []
 });
 
-//child.on('exit', this.callback);
-child.start();
+
+// vim: set filetype=javascript:
