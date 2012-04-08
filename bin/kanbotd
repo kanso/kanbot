@@ -3,10 +3,12 @@
 var forever = require('forever');
 
 forever.startDaemon(__dirname + '/../scripts/start.js', {
-    max: 3,
-    //silent: true,
+    max: 10,
     silent: false,
-    options: []
+    options: [],
+    killTree: true,
+    logFile: __dirname + '/kanbot.log',
+    pidFile:: __dirname + '/kanbot.pid'
 });
 
 
