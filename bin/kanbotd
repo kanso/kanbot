@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var forever = require('forever');
+
+forever.startDaemon(__dirname + '/../scripts/start.js', {
+    max: 3,
+    //silent: true,
+    silent: false,
+    options: []
+});
+
+
+// vim: set filetype=javascript:
