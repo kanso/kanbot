@@ -1,0 +1,24 @@
+exports.markov = 'markov.txt';
+
+exports.irc = {
+    nick: 'kanbot',
+    server: 'irc.freenode.net',
+    channels: ['#kanso']
+};
+
+exports.couchlog = {
+    db: 'http://USERNAME:PASSWORD@kanso.iriscouch.com/irclog'
+};
+
+exports.logger = {
+    level: 'info'
+};
+
+exports.repository = {
+    db: 'http://kanso.iriscouch.com/repository'
+};
+
+exports.wiki = {
+    db: 'http://kanso.iriscouch.com/docs',
+    baseURL: 'http://kan.so/docs'
+};
