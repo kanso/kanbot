@@ -8,7 +8,7 @@ forever.startDaemon(__dirname + '/../scripts/start.js', {
     options: [],
     killTree: true,
     logFile: __dirname + '/kanbot.log',
-    pidFile:: __dirname + '/kanbot.pid'
+    pidFile: __dirname + '/kanbot.pid'
 });
 
 
