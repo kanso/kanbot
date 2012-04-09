@@ -7,8 +7,8 @@ forever.start(__dirname + '/../scripts/start.js', {
     silent: false,
     options: [],
     killTree: true,
-    logFile: __dirname + '/kanbot.log',
-    pidFile: __dirname + '/kanbot.pid'
+    logFile: __dirname + '/../kanbot.log',
+    pidFile: __dirname + '/../kanbot.pid'
 });
 
 
