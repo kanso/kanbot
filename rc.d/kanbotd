@@ -3,7 +3,7 @@
 . /etc/rc.conf
 . /etc/rc.d/functions
 
-DAEMON=/home/kanbot/kanbot/bin/kanbotd
+DAEMON=kanbotd
 ARGS=
 
 #[ -r /etc/conf.d/$DAEMON ] && . /etc/conf.d/$DAEMON
